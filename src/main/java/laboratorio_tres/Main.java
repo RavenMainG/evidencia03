@@ -11,7 +11,7 @@ public class Main {
     
     ArrayList<Empleado> empleados = new ArrayList<Empleado>();
     
-    EmpleadoAsalariado empleadoAsalariado = new EmpleadoAsalariado("Juan", "Perez", "123456789", new Fecha(01, 02, 2023), 1000);
+    EmpleadoAsalariado empleadoAsalariado = new EmpleadoAsalariado("Juan", "Perez", "123456789", new Fecha(01, 03, 2023), 1000);
     EmpleadoPorHoras empleadoPorHoras = new EmpleadoPorHoras("Pedro", "Gomez", "987654321", new Fecha(01, 02, 2023), 100, 10);
     EmpleadoPorComision empleadoPorComision = new EmpleadoPorComision("Maria", "Gonzalez", "123456789", new Fecha(01, 02, 2023), 1000, 20);
 
